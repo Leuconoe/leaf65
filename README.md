@@ -12,3 +12,6 @@ There are two directories:
 It's pretty straight forward if you've use qmk. If not, in there is a link to the newbs guide which explains things pretty well.
 
 - **`via_config`** is pretty self-explanatory I think.
+
+- **`solder`** has firmware for the solder (non-hotswap) Leaf65 PCB, including a prebuilt VIA `.hex`.
+The `mast3rsoda` firmware is for the hotswap PCB and scrambles keys on the solder PCB. See `solder/readme.md`.
